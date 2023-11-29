@@ -161,7 +161,7 @@
 
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:320px){
     #top{
         height: 700px;
         background-image: url("Title-Image.png");
