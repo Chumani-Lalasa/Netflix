@@ -17,6 +17,7 @@
 
 #nav{
     display: flex;
+
     
 }
 
@@ -27,6 +28,7 @@
     gap: 15px;
     color: white;
     font-size: 20px;
+
     
 }
 
@@ -36,6 +38,7 @@
     bottom: 1cm; 
     display: flex;
     gap: 0.5cm;
+    width: 6cm;
 }
 
 #netimg{
@@ -156,5 +159,69 @@
     display: flex;
     align-items: center;
 
+}
+
+@media screen and (max-width:600px){
+    #top{
+        height: 700px;
+        background-image: url("Title-Image.png");
+        width:1150px;
+       
+    }
+
+    .navdetails{
+        margin-top: 1.9cm;
+        gap: 10px;
+        font-size: 14px;
+    
+        
+    }
+
+    #symbols{
+        left: 24cm;
+        bottom: 0.6cm; 
+        gap: 0.5cm;
+        width: 4cm;
+    }
+
+    #netimg{
+        height: 0.5cm;
+        width: 2cm;
+        margin-top: 1.8cm;
+        margin-left: 0.9cm;
+    }
+    .maid-container{
+        margin-left: 0.9cm;
+        top: 8cm;
+    }
+    .maid-text{
+        font-size: 35px;
+    }
+    .n-container{
+        letter-spacing: 2px;
+        gap: 0.2cm;
+    }
+    #show{
+        margin-top: 8px;
+    }
+    #btn-container{
+        gap: 0.3cm;
+    }
+    #add{
+        left: 32cm;
+        bottom: 3.6cm;
+    }
+    .bottom{
+        width: 1150px;
+        display:flex;
+        flex-wrap: wrap;
+
+    }
+    .img-container{
+        gap: 0.4cm;
+        margin-left: 1cm;
+        width: 1150px;
+        flex-wrap: wrap;
+    }
 }
 
