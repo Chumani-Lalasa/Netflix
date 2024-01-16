@@ -160,27 +160,26 @@
     align-items: center;
 
 }
-
 @media screen and (max-width:320px){
     #top{
         height: 700px;
         background-image: url("Title-Image.png");
-        width:1150px;
-       
+        width:450px;
+        background-size: cover;
     }
 
     .navdetails{
-        margin-top: 1.9cm;
+        margin-top: 50px;
         gap: 10px;
-        font-size: 14px;
+        font-size: 18px;
     
         
     }
 
     #symbols{
-        left: 24cm;
-        bottom: 0.6cm; 
-        gap: 0.5cm;
+        left: 260px;
+        bottom: 0cm; 
+        gap: 0.3cm;
         width: 4cm;
     }
 
@@ -212,16 +211,20 @@
         bottom: 3.6cm;
     }
     .bottom{
-        width: 1150px;
-        display:flex;
-        flex-wrap: wrap;
-
+        width: 460px;
     }
     .img-container{
-        gap: 0.4cm;
-        margin-left: 1cm;
-        width: 1150px;
-        flex-wrap: wrap;
+        width: 1350px;
+        display: grid;
+        grid-template-columns: repeat(1,900px);
     }
+    .conclusion{
+        padding: 0px;
+        margin-left: 0px;
+    }
+    .conclusion-text{
+        gap: 0px;
+    }
+    
 }
 
