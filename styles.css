@@ -211,19 +211,24 @@
         bottom: 3.6cm;
     }
     .bottom{
-        width: 500px;
+        width: 1300px;
     }
     .img-container{
-        width: 1350px;
+        width: 1400px;
         display: grid;
         grid-template-columns: repeat(1,1000px);
+        justify-content:center;
+    }
+    .img-container img{
+        height: 400px;
+        width:fit-content;
     }
     .conclusion{
-        padding: 0px;
-        margin-left: 0px;
+        padding: 10px;
+        margin-left:10px;
     }
     .conclusion-text{
-        gap: 0px;
+        gap: 3.5cm;
     }
     
 }
