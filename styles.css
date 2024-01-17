@@ -164,21 +164,21 @@
     #top{
         height: 700px;
         background-image: url("Title-Image.png");
-        width:450px;
+        width:500px;
         background-size: cover;
     }
 
     .navdetails{
-        margin-top: 50px;
+        margin-top: 70px;
         gap: 10px;
-        font-size: 18px;
-    
+        font-size: 13px;
+        margin-left:0px;
         
     }
 
     #symbols{
-        left: 260px;
-        bottom: 0cm; 
+        left: 320px;
+        bottom: 15cm; 
         gap: 0.3cm;
         width: 4cm;
     }
@@ -187,7 +187,7 @@
         height: 0.5cm;
         width: 2cm;
         margin-top: 1.8cm;
-        margin-left: 0.9cm;
+        margin-left: 0px;
     }
     .maid-container{
         margin-left: 0.9cm;
@@ -211,12 +211,12 @@
         bottom: 3.6cm;
     }
     .bottom{
-        width: 460px;
+        width: 500px;
     }
     .img-container{
         width: 1350px;
         display: grid;
-        grid-template-columns: repeat(1,900px);
+        grid-template-columns: repeat(1,1000px);
     }
     .conclusion{
         padding: 0px;
